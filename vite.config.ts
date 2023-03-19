@@ -13,6 +13,20 @@ export default defineConfig({
 
   build: {
     outDir: 'dist',
+    lib: {
+      entry: 'src/index.ts',
+      name: 'Prototype',
+      fileName: 'index',
+    },
+    rollupOptions: {
+      external: ['react', 'react-dom'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
+      },
+    },
   },
 
   css: {
