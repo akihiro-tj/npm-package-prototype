@@ -23,14 +23,13 @@ $ yarn fix
 ## Publish
 
 ```bash
-$ yarn version
-
-info Current version: x.x.x
-question New version: {version}
+$ yarn version --new-version {version}
+$ git push origin v{version}
 ```
 
 ```bash
-$ git push origin {version}
+$ yarn version --new-version 0.1.0
+$ git push origin v0.1.0
 ```
 
 ## Usage
