@@ -1,4 +1,6 @@
-# Vite-React-TypeScript Boilerplate
+# NPM Package Prototype
+
+Storybook: https://akihiro-tj.github.io/npm-package-prototype/
 
 ## Setup
 
