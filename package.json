@@ -1,13 +1,13 @@
 {
   "name": "@akihiro-tj/npm-package-prototype",
-  "private": false,
   "version": "0.1.7",
   "type": "module",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "files": [
     "dist",
-    "types"
+    "types",
+    "scss"
   ],
   "publishConfig": {
     "access": "restricted",

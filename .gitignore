@@ -24,3 +24,5 @@ dist-ssr
 
 types
 storybook-static
+
+.yarn
